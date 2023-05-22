@@ -1,31 +1,26 @@
 <!DOCTYPE html>
-<html lang="jp">
-<head>
-    <!-- ⑥↓タイトルを変えてみよう -->
-    <title>さらのページ</title>
-    <!-- ⑤スタイルシートの設定をしよう -->
-    <link rel="stylesheet" href="./css/style.css">
-    
-    <!-- h1.htmlからある行をコピペしてくればOK -->
-</head>
-<body>
-    <h1>見出し</h1>
-    <!-- 塊ごとにdivタグで区切るようにしましょう。 -->
-    <div class="toggle_button">
-        <input id="toggle" class="toggle_input" type='checkbox' />
-        <label for="toggle" class="toggle_label"/>
-      </div>
-        
-         <!-- ①↓に文字を書いてみよう -->
-
-
-         <!-- ②↓に画像（imagesフォルダにあるtest.png）を挿入してみよう -->
-
-         <!-- ③↓に箇条書きをしてみよう -->
-
-
-         <!-- ④↓に外部リンクを作ってみよう -->
-
-<title>saraのXBPのページ</title>
-</body>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Switch Toggle Button</title>
+  </head>
+  <body>
+    <h1>スイッチボタン</h1>
+    <label for="switch">
+      <input type="checkbox" id="switch" />
+      スイッチ
+    </label>
+  </body>
 </html>
+<label for="switch" class="switch_label">
+    <input type="checkbox" id="switch" />
+    スイッチ
+  </label>
+  <label for="switch" class="switch_label">
+    <input type="checkbox" id="switch" />
+    <div class="base"></div>
+    スイッチ
+  </label>
