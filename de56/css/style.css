@@ -18,7 +18,19 @@ logotohome img{
     object-fit: cover; /* 画像のトリミング */
 }
 
-
+/* チェカーフラッグ */
+.checker-board {
+    background: #e1f3ff;
+    background-image:
+      linear-gradient(45deg, #c8e4ff 25%, transparent 0),
+      linear-gradient(45deg, transparent 75%, #c8e4ff 0),
+      linear-gradient(45deg, #c8e4ff 25%, transparent 0),
+      linear-gradient(45deg, transparent 75%, #c8e4ff 0);
+    background-position: 0 0, 15px 15px, 15px 15px, 30px 30px;
+    background-size: 30px 30px;
+    width: 100%;
+    display: inline-block;
+  }
 
 /* ========== common ========== */
 html, body {
