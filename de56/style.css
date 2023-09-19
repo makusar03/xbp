@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* 冒頭でimport */
+@import url('https://fonts.googleapis.com/css?family=Raleway:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:400,700&display=swap&subset=japanese');
+/* フォントを指定したいところで */
+
+.box21{
+    padding: 0.5em 1em;
+    background: -moz-linear-gradient(#ffb03c, #ff708d);
+    background: -webkit-linear-gradient(#ffb03c, #ff708d);
+    background: linear-gradient(to right, #ffb03c, #ff708d);
+    color: #FFF;
+}
+.box21 p {
+    margin: 0; 
+    padding: 0;
+}
