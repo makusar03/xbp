@@ -18,17 +18,3 @@ logotohome img{
     object-fit: cover; /* 画像のトリミング */
 }
 
-.button-022 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 250px;
-  margin: 0 auto;
-  padding: .9em 2em;
-  border: none;
-  border-radius: 25px;
-  background-image: linear-gradient(144deg, #af40ff, #5b42f2 50%, #00ddeb);
-  color: #fff;
-  font-weight: 600;
-  font-size: 1em;
-}
