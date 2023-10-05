@@ -33,3 +33,30 @@ body {
     repeating-linear-gradient(270deg, transparent, transparent 50px, purple 50px, purple 53px, transparent 53px, transparent 63px, purple 63px, purple 66px, transparent 66px, transparent 116px, rgba(0,0,0,.5) 116px, rgba(0,0,0,.5) 166px, rgba(255,255,255,.2) 166px, rgba(255,255,255,.2) 169px, rgba(0,0,0,.5) 169px, rgba(0,0,0,.5) 179px, rgba(255,255,255,.2) 179px, rgba(255,255,255,.2) 182px, rgba(0,0,0,.5) 182px, rgba(0,0,0,.5) 232px, transparent 232px);
   
   }
+
+  /* ここはコピーしなくてOK　*/
+.container {
+    font-family: "Yu Gothic", YuGothic, Verdana, 'Hiragino Kaku Gothic ProN','Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'メイリオ', Meiryo, sans-serif;
+    text-align: center;
+    padding-top: 40px;
+  }
+  
+  /* ここから下がボタンのCSS　*/
+  .btn-gradation {
+    display: inline-block;
+    text-align: left;
+    background-image: linear-gradient(#eaeaea 0%, #c6c6c6 100%);
+    box-shadow: inset 0 2px 0 rgba(255,255,255,0.5), 0 2px 2px rgba(0, 0, 0, 0.19);
+    color: #a5a5a5;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 1);
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .btn-gradation:hover {
+    opacity: 0.8;
+  }
